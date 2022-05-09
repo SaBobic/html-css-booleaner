@@ -84,3 +84,31 @@ td{
 tbody tr:nth-child(odd){
     background-color: lightblue;
   }
+
+#articoli-consigliati{
+      margin-top: 30px;
+  }
+
+#titolo-consigliati{
+    font-weight: 700;
+    color:gray;
+    font-size: 14px;
+}
+
+.consigliati{
+    height: 110px;
+    width: 150px;
+    margin-top: 10px;
+    background-size: cover;
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+}
+
+.consigliati.uno{
+    background-image: url("../img/graph.jpg");
+}
+
+.consigliati.due{
+    background-image: url("../img/monitor.jpg");
+}
