@@ -49,3 +49,12 @@ a:hover{
 .immagini-copertina{
     margin-bottom: 20px;
 }
+
+.testo-evidenziato{
+    background-color: yellow;
+}
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
