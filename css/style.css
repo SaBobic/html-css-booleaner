@@ -1,6 +1,24 @@
+/* generale */
+
 body{
     margin:0;
 }
+
+a{
+    text-decoration: none;
+    color: #1a93ec;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #1a93ec;
+}
+
+.testo-evidenziato{
+    background-color: yellow;
+}
+
+/* intestazione sito */
 
 .booleaner-header{
     height: 150px;
@@ -15,9 +33,13 @@ body{
     left: 7px;
 }
 
+/* contenitore principale */
+
 .container{
     margin-left: 7px;
 }
+
+/* titolo e data */
 
 h1{
     margin-top: 20px;
@@ -32,15 +54,7 @@ h1{
     font-size: 13px;
 }
 
-a{
-    text-decoration: none;
-    color: #1a93ec;
-}
-
-a:hover{
-    text-decoration: underline;
-    color: #1a93ec;
-}
+/* immagini copertina */
 
 .intestazione-immagini{
     font-size: 13px;
@@ -50,14 +64,14 @@ a:hover{
     margin-bottom: 20px;
 }
 
-.testo-evidenziato{
-    background-color: yellow;
-}
+/* padding lista */
 
 ul{
     list-style-position: inside;
     padding-left: 0;
 }
+
+/* stile tabella */
 
 table{
     border-collapse: collapse;
@@ -84,6 +98,8 @@ td{
 tbody tr:nth-child(odd){
     background-color: lightblue;
   }
+
+  /* sezione consigliati */
 
 #articoli-consigliati{
       margin-top: 30px;
